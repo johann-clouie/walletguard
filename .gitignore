@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+walletguard
+
+# Go test / coverage
+*.test
+*.out
+coverage.out
+
+# Build output
+bin/
+dist/
+
+# Environment and local overrides
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker local state
+.docker/
